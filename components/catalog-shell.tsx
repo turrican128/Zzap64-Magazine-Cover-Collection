@@ -11,6 +11,7 @@ import {
 import { Select } from "@/components/ui/select";
 import { CoverCard } from "@/components/cover-card";
 import { CoverLightbox } from "@/components/cover-lightbox";
+import { AboutPanel } from "@/components/about-panel";
 
 export function CatalogShell() {
   const [sort, setSort] = useState<SortKey>("issue-asc");
@@ -81,7 +82,9 @@ export function CatalogShell() {
         </div>
       </header>
 
-      <main className="px-4 sm:px-6 lg:px-10 pt-7 pb-12">
+      <AboutPanel />
+
+      <main className="px-4 sm:px-6 lg:px-10 pt-4 pb-12">
         {visible.length === 0 ? (
           <div className="flex flex-col items-center justify-center gap-3 py-20 text-center">
             <p
