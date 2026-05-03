@@ -9,8 +9,7 @@ import fitz  # PyMuPDF
 
 SRC = pathlib.Path(r"C:\Temp\zzap1")
 DST = pathlib.Path(r"c:\Claude Workspace\Zzap!64 Magazine Cover Collection")
-COVERS_DIR = DST / "covers"
-ASSETS_DIR = DST / "assets"
+COVERS_DIR = DST / "public" / "covers"
 DPI = 200
 JPEG_QUALITY = 88
 
@@ -37,7 +36,6 @@ def main() -> int:
         print(f"ERROR: source directory not found: {SRC}", file=sys.stderr)
         return 1
     COVERS_DIR.mkdir(parents=True, exist_ok=True)
-    ASSETS_DIR.mkdir(parents=True, exist_ok=True)
 
     pdfs = sorted(SRC.glob("Zzap*.pdf"))
     print(f"Found {len(pdfs)} PDFs in {SRC}")
@@ -93,8 +91,6 @@ def main() -> int:
     manifest.sort(key=lambda r: r["issue"])
 
     (DST / "covers.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-    js_payload = "const COVERS = " + json.dumps(manifest, ensure_ascii=False) + ";\n"
-    (ASSETS_DIR / "covers.js").write_text(js_payload, encoding="utf-8")
 
     elapsed = time.time() - t0
     print()

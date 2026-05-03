@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #0a0a14;
+  --color-bg-2: #11132a;
+  --color-panel: #161a36;
+  --color-ink: #e6e8ff;
+  --color-muted: #8d92c2;
+  --color-pink: #ff2e88;
+  --color-cyan: #00e5ff;
+  --color-yellow: #ffd400;
+
+  --font-mono: "VT323", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --font-display: "Press Start 2P", "VT323", monospace;
+  --font-hebrew: "Secular One", system-ui, sans-serif;
+
+  --shadow-neon-pink: 0 0 22px rgba(255, 46, 136, 0.35);
+  --shadow-neon-cyan: 0 0 22px rgba(0, 229, 255, 0.35);
+}
+
+@layer base {
+  html, body {
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(255, 46, 136, 0.12), transparent 70%),
+      radial-gradient(1000px 500px at 110% 10%, rgba(0, 229, 255, 0.10), transparent 70%),
+      linear-gradient(180deg, #06060f 0%, var(--color-bg) 30%, var(--color-bg) 100%);
+    color: var(--color-ink);
+    font-family: var(--font-mono);
+    min-height: 100vh;
+  }
+  body { font-size: 18px; line-height: 1.4; }
+  *:focus-visible {
+    outline: 2px solid var(--color-yellow);
+    outline-offset: 2px;
+  }
+
+  /* Faint global CRT scanlines across the whole page */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 2px,
+      rgba(0, 0, 0, 0.18) 3px
+    );
+    mix-blend-mode: multiply;
+  }
+}
+
+@utility text-glow-pink {
+  text-shadow:
+    0 0 8px rgba(255, 46, 136, 0.55),
+    0 0 22px rgba(255, 46, 136, 0.35),
+    3px 3px 0 #1a0d22;
+}
+@utility text-glow-cyan {
+  text-shadow:
+    0 0 8px rgba(0, 229, 255, 0.6),
+    0 0 22px rgba(0, 229, 255, 0.35),
+    3px 3px 0 #0d1b22;
+}
+
+/* Per-card scanlines (on top of the cover image) */
+@utility scanlines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.35) 3px
+  );
+}
+
+/* CRT attract-mode pulse: the bezel halo breathes pink/cyan */
+@keyframes crt-attract {
+  0%, 100% {
+    box-shadow:
+      inset 0 0 0 1px rgba(0, 229, 255, 0.55),
+      0 0 0 1px rgba(0, 229, 255, 0.35),
+      0 0 28px rgba(255, 46, 136, 0.35),
+      0 18px 40px rgba(0, 0, 0, 0.6);
+  }
+  50% {
+    box-shadow:
+      inset 0 0 0 1px rgba(255, 46, 136, 0.7),
+      0 0 0 2px rgba(0, 229, 255, 0.55),
+      0 0 44px rgba(255, 46, 136, 0.55),
+      0 22px 50px rgba(0, 0, 0, 0.7);
+  }
+}
+
+/* Phosphor RGB split on the cover image (pink left, cyan right fringe) */
+@keyframes rgb-split {
+  0%, 100% {
+    filter:
+      drop-shadow(2px 0 0 rgba(255, 46, 136, 0.8))
+      drop-shadow(-2px 0 0 rgba(0, 229, 255, 0.8));
+  }
+  50% {
+    filter:
+      drop-shadow(3px 0 0 rgba(255, 46, 136, 0.9))
+      drop-shadow(-3px 0 0 rgba(0, 229, 255, 0.9))
+      saturate(1.15);
+  }
+}
+
+/* Tired-neon flicker for the ZZAP!64 title */
+@keyframes neon-flicker {
+  0%, 92%, 96%, 100% { opacity: 1; }
+  93%, 95% {
+    opacity: 0.78;
+    text-shadow: 0 0 4px rgba(255, 46, 136, 0.4);
+  }
+  94% { opacity: 0.55; }
+}
+.header-flicker { animation: neon-flicker 7s steps(60) infinite; }
+
+/* Blinking cursor for the PUSH START prompt */
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.blink-slow { animation: blink 1.2s steps(2) infinite; }
+
+/* Respect reduced-motion: kill the heavy ambient effects */
+@media (prefers-reduced-motion: reduce) {
+  .group:hover .crt-img      { animation: none !important; filter: none !important; }
+  .group:hover .crt-bezel,
+  .group.crt-bezel:hover     { animation: none !important; }
+  .header-flicker            { animation: none !important; }
+  .blink-slow                { animation: none !important; }
+}
