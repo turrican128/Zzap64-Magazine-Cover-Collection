@@ -35,8 +35,12 @@ export function sortCovers(list: Cover[], key: SortKey): Cover[] {
   }
 }
 
+// Public asset URLs need the same prefix Next.js applies via `basePath` so they
+// resolve correctly when deployed under a subpath (e.g. on GitHub Pages).
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export function coverSrc(c: Cover, variant: "full" | "thumb" = "full"): string {
-  return variant === "thumb"
-    ? `/covers/_thumbs/${c.file}`
-    : `/covers/${c.file}`;
+  const path =
+    variant === "thumb" ? `/covers/_thumbs/${c.file}` : `/covers/${c.file}`;
+  return `${BASE_PATH}${path}`;
 }
