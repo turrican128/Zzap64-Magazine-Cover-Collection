@@ -45,6 +45,12 @@ export function AboutPanel() {
           <p>מטרת האתר: מסע חזותי אל ימים של פיקסלים, ג&apos;ויסטיקים וקסם, ברוח אולמות הארקייד של פעם.</p>
           <p>לחצו על שער לצפייה מקרוב; מיינו לפי גליון או תאריך, סננו לפי שנה.</p>
         </div>
+
+        <div className="mt-4 pt-3 border-t border-cyan-400/25">
+          <p className="text-[var(--color-muted)] text-sm sm:text-base">
+            תודה רבה ל<span className="text-[var(--color-yellow)]">אייל גרובק</span> על עזרה בשימור הארכיון.
+          </p>
+        </div>
       </div>
     </section>
   );
