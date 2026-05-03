@@ -1,0 +1,858 @@
+[
+  {
+    "issue": 1,
+    "month": "May",
+    "year": 1985,
+    "monthNum": 5,
+    "file": "Zzap001-May85.jpg",
+    "label": "#001 \u2014 May 1985"
+  },
+  {
+    "issue": 2,
+    "month": "Jun",
+    "year": 1985,
+    "monthNum": 6,
+    "file": "Zzap002-Jun85.jpg",
+    "label": "#002 \u2014 Jun 1985"
+  },
+  {
+    "issue": 3,
+    "month": "Jul",
+    "year": 1985,
+    "monthNum": 7,
+    "file": "Zzap003-Jul85.jpg",
+    "label": "#003 \u2014 Jul 1985"
+  },
+  {
+    "issue": 4,
+    "month": "Aug",
+    "year": 1985,
+    "monthNum": 8,
+    "file": "Zzap004-Aug85.jpg",
+    "label": "#004 \u2014 Aug 1985"
+  },
+  {
+    "issue": 5,
+    "month": "Sep",
+    "year": 1985,
+    "monthNum": 9,
+    "file": "Zzap005-Sep85.jpg",
+    "label": "#005 \u2014 Sep 1985"
+  },
+  {
+    "issue": 6,
+    "month": "Oct",
+    "year": 1985,
+    "monthNum": 10,
+    "file": "Zzap006-Oct85.jpg",
+    "label": "#006 \u2014 Oct 1985"
+  },
+  {
+    "issue": 7,
+    "month": "Nov",
+    "year": 1985,
+    "monthNum": 11,
+    "file": "Zzap007-Nov85.jpg",
+    "label": "#007 \u2014 Nov 1985"
+  },
+  {
+    "issue": 8,
+    "month": "Dec",
+    "year": 1985,
+    "monthNum": 12,
+    "file": "Zzap008-Dec85.jpg",
+    "label": "#008 \u2014 Dec 1985"
+  },
+  {
+    "issue": 9,
+    "month": "Jan",
+    "year": 1986,
+    "monthNum": 1,
+    "file": "Zzap009-Jan86.jpg",
+    "label": "#009 \u2014 Jan 1986"
+  },
+  {
+    "issue": 10,
+    "month": "Feb",
+    "year": 1986,
+    "monthNum": 2,
+    "file": "Zzap010-Feb86.jpg",
+    "label": "#010 \u2014 Feb 1986"
+  },
+  {
+    "issue": 11,
+    "month": "Mar",
+    "year": 1986,
+    "monthNum": 3,
+    "file": "Zzap011-Mar86.jpg",
+    "label": "#011 \u2014 Mar 1986"
+  },
+  {
+    "issue": 12,
+    "month": "Apr",
+    "year": 1986,
+    "monthNum": 4,
+    "file": "Zzap012-Apr86.jpg",
+    "label": "#012 \u2014 Apr 1986"
+  },
+  {
+    "issue": 13,
+    "month": "May",
+    "year": 1986,
+    "monthNum": 5,
+    "file": "Zzap013-May86.jpg",
+    "label": "#013 \u2014 May 1986"
+  },
+  {
+    "issue": 14,
+    "month": "Jun",
+    "year": 1986,
+    "monthNum": 6,
+    "file": "Zzap014-Jun86.jpg",
+    "label": "#014 \u2014 Jun 1986"
+  },
+  {
+    "issue": 15,
+    "month": "Jul",
+    "year": 1986,
+    "monthNum": 7,
+    "file": "Zzap015-Jul86.jpg",
+    "label": "#015 \u2014 Jul 1986"
+  },
+  {
+    "issue": 16,
+    "month": "Aug",
+    "year": 1986,
+    "monthNum": 8,
+    "file": "Zzap016-Aug86.jpg",
+    "label": "#016 \u2014 Aug 1986"
+  },
+  {
+    "issue": 17,
+    "month": "Sep",
+    "year": 1986,
+    "monthNum": 9,
+    "file": "Zzap017-Sep86.jpg",
+    "label": "#017 \u2014 Sep 1986"
+  },
+  {
+    "issue": 18,
+    "month": "Oct",
+    "year": 1986,
+    "monthNum": 10,
+    "file": "Zzap018-Oct86.jpg",
+    "label": "#018 \u2014 Oct 1986"
+  },
+  {
+    "issue": 19,
+    "month": "Nov",
+    "year": 1986,
+    "monthNum": 11,
+    "file": "Zzap019-Nov86.jpg",
+    "label": "#019 \u2014 Nov 1986"
+  },
+  {
+    "issue": 20,
+    "month": "Dec",
+    "year": 1986,
+    "monthNum": 12,
+    "file": "Zzap020-Dec86.jpg",
+    "label": "#020 \u2014 Dec 1986"
+  },
+  {
+    "issue": 21,
+    "month": "Jan",
+    "year": 1987,
+    "monthNum": 1,
+    "file": "Zzap021-Jan87.jpg",
+    "label": "#021 \u2014 Jan 1987"
+  },
+  {
+    "issue": 22,
+    "month": "Feb",
+    "year": 1987,
+    "monthNum": 2,
+    "file": "Zzap022-Feb87.jpg",
+    "label": "#022 \u2014 Feb 1987"
+  },
+  {
+    "issue": 23,
+    "month": "Mar",
+    "year": 1987,
+    "monthNum": 3,
+    "file": "Zzap023-Mar87.jpg",
+    "label": "#023 \u2014 Mar 1987"
+  },
+  {
+    "issue": 24,
+    "month": "Apr",
+    "year": 1987,
+    "monthNum": 4,
+    "file": "Zzap024-Apr87.jpg",
+    "label": "#024 \u2014 Apr 1987"
+  },
+  {
+    "issue": 25,
+    "month": "May",
+    "year": 1987,
+    "monthNum": 5,
+    "file": "Zzap025-May87.jpg",
+    "label": "#025 \u2014 May 1987"
+  },
+  {
+    "issue": 26,
+    "month": "Jun",
+    "year": 1987,
+    "monthNum": 6,
+    "file": "Zzap026-Jun87.jpg",
+    "label": "#026 \u2014 Jun 1987"
+  },
+  {
+    "issue": 27,
+    "month": "Jul",
+    "year": 1987,
+    "monthNum": 7,
+    "file": "Zzap027-Jul87.jpg",
+    "label": "#027 \u2014 Jul 1987"
+  },
+  {
+    "issue": 28,
+    "month": "Aug",
+    "year": 1987,
+    "monthNum": 8,
+    "file": "Zzap028-Aug87.jpg",
+    "label": "#028 \u2014 Aug 1987"
+  },
+  {
+    "issue": 29,
+    "month": "Sep",
+    "year": 1987,
+    "monthNum": 9,
+    "file": "Zzap029-Sep87.jpg",
+    "label": "#029 \u2014 Sep 1987"
+  },
+  {
+    "issue": 30,
+    "month": "Oct",
+    "year": 1987,
+    "monthNum": 10,
+    "file": "Zzap030-Oct87.jpg",
+    "label": "#030 \u2014 Oct 1987"
+  },
+  {
+    "issue": 31,
+    "month": "Nov",
+    "year": 1987,
+    "monthNum": 11,
+    "file": "Zzap031-Nov87.jpg",
+    "label": "#031 \u2014 Nov 1987"
+  },
+  {
+    "issue": 32,
+    "month": "Dec",
+    "year": 1987,
+    "monthNum": 12,
+    "file": "Zzap032-Dec87.jpg",
+    "label": "#032 \u2014 Dec 1987"
+  },
+  {
+    "issue": 33,
+    "month": "Jan",
+    "year": 1988,
+    "monthNum": 1,
+    "file": "Zzap033-Jan88.jpg",
+    "label": "#033 \u2014 Jan 1988"
+  },
+  {
+    "issue": 34,
+    "month": "Feb",
+    "year": 1988,
+    "monthNum": 2,
+    "file": "Zzap034-Feb88.jpg",
+    "label": "#034 \u2014 Feb 1988"
+  },
+  {
+    "issue": 35,
+    "month": "Mar",
+    "year": 1988,
+    "monthNum": 3,
+    "file": "Zzap035-Mar88.jpg",
+    "label": "#035 \u2014 Mar 1988"
+  },
+  {
+    "issue": 36,
+    "month": "Apr",
+    "year": 1988,
+    "monthNum": 4,
+    "file": "Zzap036-Apr88.jpg",
+    "label": "#036 \u2014 Apr 1988"
+  },
+  {
+    "issue": 37,
+    "month": "May",
+    "year": 1988,
+    "monthNum": 5,
+    "file": "Zzap037-May88.jpg",
+    "label": "#037 \u2014 May 1988"
+  },
+  {
+    "issue": 38,
+    "month": "Jun",
+    "year": 1988,
+    "monthNum": 6,
+    "file": "Zzap038-Jun88.jpg",
+    "label": "#038 \u2014 Jun 1988"
+  },
+  {
+    "issue": 39,
+    "month": "Jul",
+    "year": 1988,
+    "monthNum": 7,
+    "file": "Zzap039-Jul88.jpg",
+    "label": "#039 \u2014 Jul 1988"
+  },
+  {
+    "issue": 40,
+    "month": "Aug",
+    "year": 1988,
+    "monthNum": 8,
+    "file": "Zzap040-Aug88.jpg",
+    "label": "#040 \u2014 Aug 1988"
+  },
+  {
+    "issue": 41,
+    "month": "Sep",
+    "year": 1988,
+    "monthNum": 9,
+    "file": "Zzap041-Sep88.jpg",
+    "label": "#041 \u2014 Sep 1988"
+  },
+  {
+    "issue": 42,
+    "month": "Oct",
+    "year": 1988,
+    "monthNum": 10,
+    "file": "Zzap042-Oct88.jpg",
+    "label": "#042 \u2014 Oct 1988"
+  },
+  {
+    "issue": 43,
+    "month": "Nov",
+    "year": 1988,
+    "monthNum": 11,
+    "file": "Zzap043-Nov88.jpg",
+    "label": "#043 \u2014 Nov 1988"
+  },
+  {
+    "issue": 44,
+    "month": "Dec",
+    "year": 1988,
+    "monthNum": 12,
+    "file": "Zzap044-Dec88.jpg",
+    "label": "#044 \u2014 Dec 1988"
+  },
+  {
+    "issue": 45,
+    "month": "Jan",
+    "year": 1989,
+    "monthNum": 1,
+    "file": "Zzap045-Jan89.jpg",
+    "label": "#045 \u2014 Jan 1989"
+  },
+  {
+    "issue": 46,
+    "month": "Feb",
+    "year": 1989,
+    "monthNum": 2,
+    "file": "Zzap046-Feb89.jpg",
+    "label": "#046 \u2014 Feb 1989"
+  },
+  {
+    "issue": 47,
+    "month": "Mar",
+    "year": 1989,
+    "monthNum": 3,
+    "file": "Zzap047-Mar89.jpg",
+    "label": "#047 \u2014 Mar 1989"
+  },
+  {
+    "issue": 48,
+    "month": "Apr",
+    "year": 1989,
+    "monthNum": 4,
+    "file": "Zzap048-Apr89.jpg",
+    "label": "#048 \u2014 Apr 1989"
+  },
+  {
+    "issue": 49,
+    "month": "May",
+    "year": 1989,
+    "monthNum": 5,
+    "file": "Zzap049-May89.jpg",
+    "label": "#049 \u2014 May 1989"
+  },
+  {
+    "issue": 50,
+    "month": "Jun",
+    "year": 1989,
+    "monthNum": 6,
+    "file": "Zzap050-Jun89.jpg",
+    "label": "#050 \u2014 Jun 1989"
+  },
+  {
+    "issue": 51,
+    "month": "Jul",
+    "year": 1989,
+    "monthNum": 7,
+    "file": "Zzap051-Jul89.jpg",
+    "label": "#051 \u2014 Jul 1989"
+  },
+  {
+    "issue": 52,
+    "month": "Aug",
+    "year": 1989,
+    "monthNum": 8,
+    "file": "Zzap052-Aug89.jpg",
+    "label": "#052 \u2014 Aug 1989"
+  },
+  {
+    "issue": 53,
+    "month": "Sep",
+    "year": 1989,
+    "monthNum": 9,
+    "file": "Zzap053-Sep89.jpg",
+    "label": "#053 \u2014 Sep 1989"
+  },
+  {
+    "issue": 54,
+    "month": "Oct",
+    "year": 1989,
+    "monthNum": 10,
+    "file": "Zzap054-Oct89.jpg",
+    "label": "#054 \u2014 Oct 1989"
+  },
+  {
+    "issue": 55,
+    "month": "Nov",
+    "year": 1989,
+    "monthNum": 11,
+    "file": "Zzap055-Nov89.jpg",
+    "label": "#055 \u2014 Nov 1989"
+  },
+  {
+    "issue": 56,
+    "month": "Dec",
+    "year": 1989,
+    "monthNum": 12,
+    "file": "Zzap056-Dec89.jpg",
+    "label": "#056 \u2014 Dec 1989"
+  },
+  {
+    "issue": 57,
+    "month": "Jan",
+    "year": 1990,
+    "monthNum": 1,
+    "file": "Zzap057-Jan90.jpg",
+    "label": "#057 \u2014 Jan 1990"
+  },
+  {
+    "issue": 58,
+    "month": "Feb",
+    "year": 1990,
+    "monthNum": 2,
+    "file": "Zzap058-Feb90.jpg",
+    "label": "#058 \u2014 Feb 1990"
+  },
+  {
+    "issue": 59,
+    "month": "Mar",
+    "year": 1990,
+    "monthNum": 3,
+    "file": "Zzap059-Mar90.jpg",
+    "label": "#059 \u2014 Mar 1990"
+  },
+  {
+    "issue": 60,
+    "month": "Apr",
+    "year": 1990,
+    "monthNum": 4,
+    "file": "Zzap060-Apr90.jpg",
+    "label": "#060 \u2014 Apr 1990"
+  },
+  {
+    "issue": 61,
+    "month": "May",
+    "year": 1990,
+    "monthNum": 5,
+    "file": "Zzap061-May90.jpg",
+    "label": "#061 \u2014 May 1990"
+  },
+  {
+    "issue": 62,
+    "month": "Jun",
+    "year": 1990,
+    "monthNum": 6,
+    "file": "Zzap062-Jun90.jpg",
+    "label": "#062 \u2014 Jun 1990"
+  },
+  {
+    "issue": 63,
+    "month": "Jul",
+    "year": 1990,
+    "monthNum": 7,
+    "file": "Zzap063-Jul90.jpg",
+    "label": "#063 \u2014 Jul 1990"
+  },
+  {
+    "issue": 64,
+    "month": "Aug",
+    "year": 1990,
+    "monthNum": 8,
+    "file": "Zzap064-Aug90.jpg",
+    "label": "#064 \u2014 Aug 1990"
+  },
+  {
+    "issue": 65,
+    "month": "Sep",
+    "year": 1990,
+    "monthNum": 9,
+    "file": "Zzap065-Sep90.jpg",
+    "label": "#065 \u2014 Sep 1990"
+  },
+  {
+    "issue": 66,
+    "month": "Oct",
+    "year": 1990,
+    "monthNum": 10,
+    "file": "Zzap066-Oct90.jpg",
+    "label": "#066 \u2014 Oct 1990"
+  },
+  {
+    "issue": 67,
+    "month": "Nov",
+    "year": 1990,
+    "monthNum": 11,
+    "file": "Zzap067-Nov90.jpg",
+    "label": "#067 \u2014 Nov 1990"
+  },
+  {
+    "issue": 68,
+    "month": "Dec",
+    "year": 1990,
+    "monthNum": 12,
+    "file": "Zzap068-Dec90.jpg",
+    "label": "#068 \u2014 Dec 1990"
+  },
+  {
+    "issue": 69,
+    "month": "Jan",
+    "year": 1991,
+    "monthNum": 1,
+    "file": "Zzap069-Jan91.jpg",
+    "label": "#069 \u2014 Jan 1991"
+  },
+  {
+    "issue": 70,
+    "month": "Feb",
+    "year": 1991,
+    "monthNum": 2,
+    "file": "Zzap070-Feb91.jpg",
+    "label": "#070 \u2014 Feb 1991"
+  },
+  {
+    "issue": 71,
+    "month": "Mar",
+    "year": 1991,
+    "monthNum": 3,
+    "file": "Zzap071-Mar91.jpg",
+    "label": "#071 \u2014 Mar 1991"
+  },
+  {
+    "issue": 72,
+    "month": "Apr",
+    "year": 1991,
+    "monthNum": 4,
+    "file": "Zzap072-Apr91.jpg",
+    "label": "#072 \u2014 Apr 1991"
+  },
+  {
+    "issue": 73,
+    "month": "May",
+    "year": 1991,
+    "monthNum": 5,
+    "file": "Zzap073-May91.jpg",
+    "label": "#073 \u2014 May 1991"
+  },
+  {
+    "issue": 74,
+    "month": "Jun",
+    "year": 1991,
+    "monthNum": 6,
+    "file": "Zzap074-Jun91.jpg",
+    "label": "#074 \u2014 Jun 1991"
+  },
+  {
+    "issue": 75,
+    "month": "Jul",
+    "year": 1991,
+    "monthNum": 7,
+    "file": "Zzap075-Jul91.jpg",
+    "label": "#075 \u2014 Jul 1991"
+  },
+  {
+    "issue": 76,
+    "month": "Aug",
+    "year": 1991,
+    "monthNum": 8,
+    "file": "Zzap076-Aug91.jpg",
+    "label": "#076 \u2014 Aug 1991"
+  },
+  {
+    "issue": 77,
+    "month": "Sep",
+    "year": 1991,
+    "monthNum": 9,
+    "file": "Zzap077-Sep91.jpg",
+    "label": "#077 \u2014 Sep 1991"
+  },
+  {
+    "issue": 78,
+    "month": "Oct",
+    "year": 1991,
+    "monthNum": 10,
+    "file": "Zzap078-Oct91.jpg",
+    "label": "#078 \u2014 Oct 1991"
+  },
+  {
+    "issue": 79,
+    "month": "Dec",
+    "year": 1991,
+    "monthNum": 12,
+    "file": "Zzap079-Dec91.jpg",
+    "label": "#079 \u2014 Dec 1991"
+  },
+  {
+    "issue": 80,
+    "month": "Jan",
+    "year": 1992,
+    "monthNum": 1,
+    "file": "Zzap080-Jan92.jpg",
+    "label": "#080 \u2014 Jan 1992"
+  },
+  {
+    "issue": 81,
+    "month": "Feb",
+    "year": 1992,
+    "monthNum": 2,
+    "file": "Zzap081-Feb92.jpg",
+    "label": "#081 \u2014 Feb 1992"
+  },
+  {
+    "issue": 82,
+    "month": "Mar",
+    "year": 1992,
+    "monthNum": 3,
+    "file": "Zzap082-Mar92.jpg",
+    "label": "#082 \u2014 Mar 1992"
+  },
+  {
+    "issue": 83,
+    "month": "Apr",
+    "year": 1992,
+    "monthNum": 4,
+    "file": "Zzap083-Apr92.jpg",
+    "label": "#083 \u2014 Apr 1992"
+  },
+  {
+    "issue": 84,
+    "month": "May",
+    "year": 1992,
+    "monthNum": 5,
+    "file": "Zzap084-May92.jpg",
+    "label": "#084 \u2014 May 1992"
+  },
+  {
+    "issue": 85,
+    "month": "Jun",
+    "year": 1992,
+    "monthNum": 6,
+    "file": "Zzap085-Jun92.jpg",
+    "label": "#085 \u2014 Jun 1992"
+  },
+  {
+    "issue": 86,
+    "month": "Jul",
+    "year": 1992,
+    "monthNum": 7,
+    "file": "Zzap086-Jul92.jpg",
+    "label": "#086 \u2014 Jul 1992"
+  },
+  {
+    "issue": 87,
+    "month": "Aug",
+    "year": 1992,
+    "monthNum": 8,
+    "file": "Zzap087-Aug92.jpg",
+    "label": "#087 \u2014 Aug 1992"
+  },
+  {
+    "issue": 88,
+    "month": "Sep",
+    "year": 1992,
+    "monthNum": 9,
+    "file": "Zzap088-Sep92.jpg",
+    "label": "#088 \u2014 Sep 1992"
+  },
+  {
+    "issue": 89,
+    "month": "Oct",
+    "year": 1992,
+    "monthNum": 10,
+    "file": "Zzap089-Oct92.jpg",
+    "label": "#089 \u2014 Oct 1992"
+  },
+  {
+    "issue": 90,
+    "month": "Nov",
+    "year": 1992,
+    "monthNum": 11,
+    "file": "Zzap090-Nov92.jpg",
+    "label": "#090 \u2014 Nov 1992"
+  },
+  {
+    "issue": 91,
+    "month": "Jan",
+    "year": 1993,
+    "monthNum": 1,
+    "file": "Zzap091-Jan93.jpg",
+    "label": "#091 \u2014 Jan 1993"
+  },
+  {
+    "issue": 92,
+    "month": "Feb",
+    "year": 1993,
+    "monthNum": 2,
+    "file": "Zzap092-Feb93.jpg",
+    "label": "#092 \u2014 Feb 1993"
+  },
+  {
+    "issue": 93,
+    "month": "Mar",
+    "year": 1993,
+    "monthNum": 3,
+    "file": "Zzap093-Mar93.jpg",
+    "label": "#093 \u2014 Mar 1993"
+  },
+  {
+    "issue": 94,
+    "month": "Apr",
+    "year": 1993,
+    "monthNum": 4,
+    "file": "Zzap094-Apr93.jpg",
+    "label": "#094 \u2014 Apr 1993"
+  },
+  {
+    "issue": 95,
+    "month": "May",
+    "year": 1993,
+    "monthNum": 5,
+    "file": "Zzap095-May93.jpg",
+    "label": "#095 \u2014 May 1993"
+  },
+  {
+    "issue": 96,
+    "month": "Jun",
+    "year": 1993,
+    "monthNum": 6,
+    "file": "Zzap096-Jun93.jpg",
+    "label": "#096 \u2014 Jun 1993"
+  },
+  {
+    "issue": 97,
+    "month": "Jul",
+    "year": 1993,
+    "monthNum": 7,
+    "file": "Zzap097-Jul93.jpg",
+    "label": "#097 \u2014 Jul 1993"
+  },
+  {
+    "issue": 98,
+    "month": "Aug",
+    "year": 1993,
+    "monthNum": 8,
+    "file": "Zzap098-Aug93.jpg",
+    "label": "#098 \u2014 Aug 1993"
+  },
+  {
+    "issue": 99,
+    "month": "Sep",
+    "year": 1993,
+    "monthNum": 9,
+    "file": "Zzap099-Sep93.jpg",
+    "label": "#099 \u2014 Sep 1993"
+  },
+  {
+    "issue": 100,
+    "month": "Oct",
+    "year": 1993,
+    "monthNum": 10,
+    "file": "Zzap100-Oct93.jpg",
+    "label": "#100 \u2014 Oct 1993"
+  },
+  {
+    "issue": 101,
+    "month": "Autumn",
+    "year": 1993,
+    "monthNum": 10,
+    "file": "Zzap101-Autumn93.jpg",
+    "label": "#101 \u2014 Autumn 1993"
+  },
+  {
+    "issue": 102,
+    "month": "Nov",
+    "year": 1993,
+    "monthNum": 11,
+    "file": "Zzap102-Nov93.jpg",
+    "label": "#102 \u2014 Nov 1993"
+  },
+  {
+    "issue": 103,
+    "month": "Dec",
+    "year": 1993,
+    "monthNum": 12,
+    "file": "Zzap103-Dec93.jpg",
+    "label": "#103 \u2014 Dec 1993"
+  },
+  {
+    "issue": 104,
+    "month": "Jan",
+    "year": 1994,
+    "monthNum": 1,
+    "file": "Zzap104-Jan94.jpg",
+    "label": "#104 \u2014 Jan 1994"
+  },
+  {
+    "issue": 105,
+    "month": "Feb",
+    "year": 1994,
+    "monthNum": 2,
+    "file": "Zzap105-Feb94.jpg",
+    "label": "#105 \u2014 Feb 1994"
+  },
+  {
+    "issue": 106,
+    "month": "Mar",
+    "year": 1994,
+    "monthNum": 3,
+    "file": "Zzap106-Mar94.jpg",
+    "label": "#106 \u2014 Mar 1994"
+  },
+  {
+    "issue": 107,
+    "month": "Mar",
+    "year": 2002,
+    "monthNum": 3,
+    "file": "Zzap107-Mar02.jpg",
+    "label": "#107 \u2014 Mar 2002"
+  }
+]
