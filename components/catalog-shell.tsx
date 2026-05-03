@@ -40,7 +40,7 @@ export function CatalogShell() {
         <div className="flex flex-wrap items-end justify-between gap-5">
           <div>
             <h1
-              className="font-display text-2xl sm:text-3xl lg:text-4xl tracking-wider m-0 text-[var(--color-pink)] text-glow-pink"
+              className="header-flicker font-display text-2xl sm:text-3xl lg:text-4xl tracking-wider m-0 text-[var(--color-pink)] text-glow-pink"
               style={{ fontFamily: "var(--font-display)" }}
             >
               ZZAP!<span className="text-[var(--color-cyan)] text-glow-cyan">64</span>
@@ -83,9 +83,17 @@ export function CatalogShell() {
 
       <main className="px-4 sm:px-6 lg:px-10 pt-7 pb-12">
         {visible.length === 0 ? (
-          <p className="text-center text-[var(--color-muted)] text-xl py-12">
-            No issues match this filter.
-          </p>
+          <div className="flex flex-col items-center justify-center gap-3 py-20 text-center">
+            <p
+              className="font-display text-[var(--color-yellow)] text-glow-pink text-xl sm:text-2xl tracking-[0.3em] blink-slow"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              ► PUSH START ◄
+            </p>
+            <p className="text-[var(--color-cyan)] text-base sm:text-lg uppercase tracking-widest">
+              No issues loaded in memory bank
+            </p>
+          </div>
         ) : (
           <motion.div
             layout
