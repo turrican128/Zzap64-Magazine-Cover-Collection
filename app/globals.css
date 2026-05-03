@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #0a0a14;
+  --color-bg-2: #11132a;
+  --color-panel: #161a36;
+  --color-ink: #e6e8ff;
+  --color-muted: #8d92c2;
+  --color-pink: #ff2e88;
+  --color-cyan: #00e5ff;
+  --color-yellow: #ffd400;
+
+  --font-mono: "VT323", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --font-display: "Press Start 2P", "VT323", monospace;
+
+  --shadow-neon-pink: 0 0 22px rgba(255, 46, 136, 0.35);
+  --shadow-neon-cyan: 0 0 22px rgba(0, 229, 255, 0.35);
+}
+
+@layer base {
+  html, body {
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(255, 46, 136, 0.12), transparent 70%),
+      radial-gradient(1000px 500px at 110% 10%, rgba(0, 229, 255, 0.10), transparent 70%),
+      linear-gradient(180deg, #06060f 0%, var(--color-bg) 30%, var(--color-bg) 100%);
+    color: var(--color-ink);
+    font-family: var(--font-mono);
+    min-height: 100vh;
+  }
+  body { font-size: 18px; line-height: 1.4; }
+  *:focus-visible {
+    outline: 2px solid var(--color-yellow);
+    outline-offset: 2px;
+  }
+}
+
+@utility text-glow-pink {
+  text-shadow:
+    0 0 8px rgba(255, 46, 136, 0.55),
+    0 0 22px rgba(255, 46, 136, 0.35),
+    3px 3px 0 #1a0d22;
+}
+@utility text-glow-cyan {
+  text-shadow:
+    0 0 8px rgba(0, 229, 255, 0.6),
+    0 0 22px rgba(0, 229, 255, 0.35),
+    3px 3px 0 #0d1b22;
+}
