@@ -124,7 +124,7 @@ async function main() {
       ...coverComposites,
       { input: Buffer.from(overlaySvg), top: 0, left: 0 },
     ])
-    .jpeg({ quality: 92, progressive: true, mozjpeg: true })
+    .jpeg({ quality: 92, progressive: false })
     .toFile(OUT);
 
   console.log(`Generated ${path.relative(ROOT, OUT)} (1200x630, ${featured.length} covers)`);
