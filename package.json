@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "thumbs": "node scripts/generate-thumbs.mjs",
+    "og": "node scripts/generate-og-image.mjs",
     "extract": "python extract_covers.py"
   },
   "dependencies": {
